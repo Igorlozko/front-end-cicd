@@ -1,0 +1,70 @@
+/* BookDetail Styles */
+.detail {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .bookDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .detail img {
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imageDiv {
+    width: 100%;
+    padding-top: 2em;
+  }
+  
+  .textDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2em;
+    margin-top: 1em;
+  }
+  
+  .textDiv h1,
+  .textDiv h2,
+  .textDiv a {
+    margin: 0;
+  }
+  
+  .textDiv h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #800000;
+  }
+  
+  .textDiv h2 {
+    font-size: 1.8rem;
+    color: #555;
+  }
+  
+  .textDiv a {
+    font-size: 1.2rem;
+    color: #1a2329;
+    text-decoration: none;
+  }
+  
+  .textDiv a:hover {
+    text-decoration: underline;
+  }
+
+  .buttonDiv {
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  

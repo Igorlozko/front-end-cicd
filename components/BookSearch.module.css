@@ -1,0 +1,29 @@
+/* BookSearch.module.css */
+
+.container {
+  margin: 10px;
+}
+
+.searchContainer {
+  position: fixed;
+  top: 100px; /* Adjust the top position as needed */
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestionsContainer {
+  position: absolute;
+  top: 150px; /* Adjust the top position as needed */
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 10px;
+}
+
+/* Add more styles as needed */
